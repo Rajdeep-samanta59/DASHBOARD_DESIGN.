@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 function Topbar() {
   return (
-    <header className="px-6 py-4">
+    <header className="px-6 py-2">
       <div className="flex items-center justify-between">
         <div className="flex items-center flex-1 max-w-[900px]">
           <div className="flex items-center gap-3 rounded-lg bg-slate-800 px-3 py-2 w-full">
@@ -32,7 +32,7 @@ function Topbar() {
         </div>
       </div>
 
-      <div className="mt-6 flex items-center justify-between">
+      <div className="mt-2 flex items-center justify-between">
         <h1 className="text-3xl font-extrabold text-white">Dashboard</h1>
 
         <Button className="ml-4 h-10 rounded-md bg-blue-500 px-4 text-white hover:bg-blue-500/90">

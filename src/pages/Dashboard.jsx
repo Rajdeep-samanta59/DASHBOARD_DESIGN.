@@ -16,15 +16,15 @@ const deployments = [
 
 function Dashboard() {
   return (
-    <div className="flex min-h-screen bg-slate-950 text-white dark">
+    <div className="flex min-h-screen bg-slate-950 text-white dark ">
       <AppSidebar />
 
-      <main className="flex flex-1 flex-col gap-6 bg-slate-950 p-6">
+      <main className="flex flex-1 flex-col gap-2 bg-slate-950 p-6">
         <Topbar />
 
         <StatCards />
 
-        <section className="grid gap-4 lg:grid-cols-[2fr_1.2fr]">
+        <section className="grid gap-3 lg:grid-cols-[2fr_1.2fr]">
           <TrendCard />
           <DeploymentsTable rows={deployments} />
         </section>
