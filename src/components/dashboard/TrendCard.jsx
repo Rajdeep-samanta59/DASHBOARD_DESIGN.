@@ -11,7 +11,7 @@ import {
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 
 const spendData = [
-  { date: "2024-05-01", spend: 12.0 },
+  { date: "2024-05-01", spend: 62.0 },
   { date: "2024-05-02", spend: 38.0 },
   { date: "2024-05-03", spend: 28.0 },
   { date: "2024-05-04", spend: 56.0 },
@@ -21,8 +21,8 @@ const spendData = [
   { date: "2024-05-08", spend: 62.0 },
   { date: "2024-05-09", spend: 42.0 },
   { date: "2024-05-10", spend: 52.0 },
-  { date: "2024-05-11", spend: 22.0 },
-  { date: "2024-05-12", spend: 48.0 },
+  { date: "2024-05-11", spend: 29.0 },
+  { date: "2024-05-12", spend: 68.0 },
   { date: "2024-05-13", spend: 30.0 },
   { date: "2024-05-14", spend: 50.0 },
   { date: "2024-05-15", spend: 26.0 },
